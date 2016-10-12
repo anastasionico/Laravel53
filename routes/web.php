@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return "Hello World 5.3";
-    //return view('welcome');
+
+
+Route::get("/about", function(){
+	return view('about');
 });
 
-Route::get("/again", function(){
-	return "hello again";
+Route::get("/contact", function(){
+	return view('contact');
+});
+Route::get('/', function () {
+	return view('welcome');
 });
