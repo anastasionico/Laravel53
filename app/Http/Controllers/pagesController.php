@@ -9,7 +9,12 @@ use App\Http\Requests;
 class pagesController extends Controller
 {
     public function getAbout(){
-    	return view('pages.about');
+    	$name = "Nico";
+    	$surname = "Anastasio";
+    	$fullname = $name . " " . $surname;
+    	$email = "nico@anastasionico.uk";
+    	$data = array('fullname' => $fullname, 'email'=>$email);
+    	return view('pages.about')->withData($data);
     }
     public function getContact(){
     	return view('pages.contact');

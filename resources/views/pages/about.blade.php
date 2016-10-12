@@ -75,12 +75,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    About me
+                    About {{ $data['fullname'] }}
                 </div>
 
                 <div class="links">
                     <p>
-                        This is the about me page
+                        Email me on {{ $data['email'] }}
                     </p>     
                 </div>
             </div>
