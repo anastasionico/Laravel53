@@ -20,6 +20,9 @@ class pagesController extends Controller
     	return view('pages.contact');
     }
     public function getIndex(){
+    	return view('pages.index');
+    }
+    public function getWelcome(){
     	return view('pages.welcome');
     }
 }
