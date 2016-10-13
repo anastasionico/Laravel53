@@ -58,7 +58,7 @@
             <div class="col-md-12">
                 <div class="jumbotron">
                     <h1>Hello, Welcome to my Laravel blog</h1>
-                    <p class="lead">check it out!</p>
+                    <p class="lead">Check it out!</p>
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular post</a></p>
                 </div>        
             </div>
