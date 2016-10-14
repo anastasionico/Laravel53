@@ -1,4 +1,6 @@
 @extends('main')
+
+@section('title','Home')
 @section('content')
     <div class="row">
             <div class="col-md-12">
@@ -48,4 +50,11 @@
         </div>    
 
     }
+@endsection
+
+
+@section('scripts')
+    <script type="text/javascript">
+        confirm('This is a confirmation message');
+    </script>
 @endsection
